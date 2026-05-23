@@ -4,16 +4,16 @@
 
 /* ---------- 1. Dados dos produtos ---------- */
 const produtos = [
-  { nome: 'PokGalinhas Stardew Valley',       desc: 'Pelúcias em Amigurumi como as Galinhas Stardew Valley', imagem: 'imagem/Pelúcias 1.jpeg', icon: 'fa-solid fa-paw',          cor: 'linear-gradient(135deg,#e9b8b0,#d29a93)' },
+  { nome: 'Galinhas Stardew Valley',       desc: 'Pelúcias em Amigurumi como as Galinhas Stardew Valley', imagem: 'imagem/Pelúcias 1.jpeg', icon: 'fa-solid fa-paw',          cor: 'linear-gradient(135deg,#e9b8b0,#d29a93)' },
   { nome: 'Pokemons em Pelúcia',     desc: 'Pokemons em Pelúcia, perfeito para presentear.',        imagem: 'imagem/Pelúcia 2.jpeg', icon: 'fa-solid fa-rabbit',       cor: 'linear-gradient(135deg,#f1e4d3,#e3d0b8)' },
-  { nome: 'Bonecos Piticos',      desc: 'Bonecos Amigurumi Padrão - 100% algodão.',     imagem: 'imagem/Bonecos Piticos MahArtesanatos 1.jpeg', icon: 'fa-solid fa-cat',          cor: 'linear-gradient(135deg,#e9b8b0,#b89880)' },
-  { nome: 'Bonecos Piticos',   desc: 'Bonecos Piticos, Ordem Paranormal.',           imagem: 'imagem/Bonecos Piticos MahArtesanatos 2.jpeg', icon: 'fa-solid fa-otter',        cor: 'linear-gradient(135deg,#f1e4d3,#e9b8b0)' },
-  { nome: 'Bonecos Piticos',desc: 'Bonecos Piticos, Ordem Paranormal..',    imagem: 'imagem/Bonecos Piticos MahArtesanatos 3.jpeg', icon: 'fa-solid fa-dog',          cor: 'linear-gradient(135deg,#e3d0b8,#b89880)' },
-  { nome: 'Bonecos Piticos',   desc: 'Bonecos Piticos, Ordem Paranormal..',      imagem: 'imagem/Bonecos Piticos MahArtesanatos 4.jpeg', icon: 'fa-solid fa-cloud',        cor: 'linear-gradient(135deg,#faf5ef,#e9b8b0)' },
-  { nome: 'Marca Páginas Geek',desc: 'Marca-páginas artesanal para fãns do mundo geek.',         imagem: 'imagem/Marca Páginas 1.jpeg', icon: 'fa-solid fa-bookmark',     cor: 'linear-gradient(135deg,#e9b8b0,#f1e4d3)' },
-  { nome: 'Marca-páginas Folha',desc: 'Delicado e único, para amantes da leitura.',        imagem: 'imagem/Marca Páginas 2.jpeg', icon: 'fa-solid fa-leaf',         cor: 'linear-gradient(135deg,#e3d0b8,#b89880)' },
+  { nome: 'boneco em Amigurumi',      desc: 'Boneco em Amigurumi com a linha tradicional.',     imagem: 'imagem/Bonecos Piticos MahArtesanatos 1.jpeg', icon: 'fa-solid fa-cat',          cor: 'linear-gradient(135deg,#e9b8b0,#b89880)' },
+  { nome: 'Bonecos Piticos em Amigurumi',   desc: 'Bonecos Piticos em Amigurumi, mexem 10 cm, Ordem Paranormal.',           imagem: 'imagem/Bonecos Piticos MahArtesanatos 2.jpeg', icon: 'fa-solid fa-otter',        cor: 'linear-gradient(135deg,#f1e4d3,#e9b8b0)' },
+  { nome: 'Bonecos Piticos em Amigurumi',desc: 'Bonecos Piticos em Amigurumi, mexem 10 cm, Ordem Paranormal..',    imagem: 'imagem/Bonecos Piticos MahArtesanatos 3.jpeg', icon: 'fa-solid fa-dog',          cor: 'linear-gradient(135deg,#e3d0b8,#b89880)' },
+  { nome: 'Bonecos Piticos em Amigurumi',   desc: 'Bonecos Piticos em Amigurumi, mexem 10 cm, Ordem Paranormal..',      imagem: 'imagem/Bonecos Piticos MahArtesanatos 4.jpeg', icon: 'fa-solid fa-cloud',        cor: 'linear-gradient(135deg,#faf5ef,#e9b8b0)' },
+  { nome: 'Marca Páginas Geek',desc: 'Marca-páginas artesanal para fãs do mundo geek.',         imagem: 'imagem/Marca Páginas 1.jpeg', icon: 'fa-solid fa-bookmark',     cor: 'linear-gradient(135deg,#e9b8b0,#f1e4d3)' },
+  { nome: 'Marca-páginas Folha',desc: 'Delicado e único, para amantes do café.',        imagem: 'imagem/Marca Páginas 2.jpeg', icon: 'fa-solid fa-leaf',         cor: 'linear-gradient(135deg,#e3d0b8,#b89880)' },
   { nome: 'Santinha Maria',    desc: 'Santinha de pelúcia, símbolo de fé e carinho.',      imagem: 'imagem/santinhas.jpeg', icon: 'fa-solid fa-dove',         cor: 'linear-gradient(135deg,#faf5ef,#e3d0b8)' },
-  { nome: 'Santinha Terezinha',desc: 'Peça devocional feita à mão com amor.',              imagem: 'imagem/santinhas 2.jpeg', icon: 'fa-solid fa-hands-praying',cor: 'linear-gradient(135deg,#f1e4d3,#d29a93)' },
+  { nome: 'Nossa Senhora',desc: 'Com 25 cm, em linhas Amigurumi Padrão e detalhes na Linha Encanto, toda bordada.',              imagem: 'imagem/santinhas 2.jpeg', icon: 'fa-solid fa-hands-praying',cor: 'linear-gradient(135deg,#f1e4d3,#d29a93)' },
   { nome: 'Brinco Pixel Art',  desc: 'Brinco artesanal estilo pixel, super charmoso.',      imagem: 'imagem/brincos.jpeg', icon: 'fa-solid fa-gem',          cor: 'linear-gradient(135deg,#d29a93,#8a6a55)' },
   { nome: 'Utilitários Porta Batom Cogumelo',desc: 'Utilitário de porta em crochê, decora e organiza.',imagem: 'imagem/Utilitários - Porta.jpeg',icon: 'fa-solid fa-heart',        cor: 'linear-gradient(135deg,#e9b8b0,#d29a93)' },
 ];
