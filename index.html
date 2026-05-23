@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ateliê Marina • Crochê Artesanal Feito à Mão</title>
+  <meta name="description" content="Peças únicas de crochê feitas à mão com carinho. Bonecos de pelúcia, marca-páginas, brincos e mais." />
+
+  <!-- Google Fonts: combinação delicada e artesanal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / HERO ===================== -->
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-heart"></i>
+        Ateliê Marina
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <div class="hero-content reveal">
+      <span class="hero-eyebrow">Feito à mão com amor</span>
+      <h1>Cada ponto carrega <em>uma história</em>.</h1>
+      <p class="hero-subtitle">
+        Peças únicas de crochê criadas com carinho, paciência e dedicação —
+        para presentear, decorar e aquecer o coração.
+      </p>
+      <a href="https://wa.me/5500000000000?text=Olá%20Marina!%20Gostaria%20de%20fazer%20uma%20encomenda."
+         class="btn btn-primary" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Fazer encomenda
+      </a>
+    </div>
+
+    <!-- Elementos decorativos delicados -->
+    <div class="hero-decoration deco-1"></div>
+    <div class="hero-decoration deco-2"></div>
+    <div class="hero-decoration deco-3"></div>
+  </header>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-texto reveal">
+        <span class="section-eyebrow">Nossa história</span>
+        <h2>Conheça a <em>Marina</em></h2>
+        <p>
+          Tudo começou em uma tarde tranquila, quando Marina pegou pela primeira vez
+          uma agulha de crochê herdada de sua avó. O que era um simples passatempo
+          tornou-se paixão — e a paixão, com o tempo, virou propósito.
+        </p>
+        <p>
+          No Ateliê Marina, cada peça é cuidadosamente pensada e construída
+          ponto a ponto, com fios escolhidos a dedo e muito carinho. Aqui não
+          existe produção em série: o que existe é tempo, dedicação e afeto
+          transformados em objetos cheios de alma.
+        </p>
+        <p class="assinatura">— com carinho, Marina ♡</p>
+      </div>
+
+      <div class="sobre-foto reveal">
+        <div class="foto-frame">
+          <img src="imagem/mah.png" alt="Foto da Marina" class="foto-marina" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUTOS / CARROSSEL ===================== -->
+  <section class="produtos" id="produtos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Coleção</span>
+        <h2>Nossos <em>produtos</em></h2>
+        <p>Peças feitas à mão, prontas para encantar.</p>
+      </div>
+
+      <div class="carousel reveal">
+        <button class="carousel-btn prev" id="prevBtn" aria-label="Anterior">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carouselTrack">
+            <!-- Os cards são injetados via JS para manter o HTML limpo -->
+          </div>
+        </div>
+
+        <button class="carousel-btn next" id="nextBtn" aria-label="Próximo">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DIFERENCIAIS ===================== -->
+  <section class="diferenciais">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Por que escolher</span>
+        <h2>Nossos <em>diferenciais</em></h2>
+      </div>
+
+      <div class="diferenciais-grid">
+        <div class="diferencial-card reveal">
+          <div class="diferencial-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h3>Feito à mão</h3>
+          <p>Cada peça é confeccionada manualmente, com tempo e dedicação.</p>
+        </div>
+        <div class="diferencial-card reveal">
+          <div class="diferencial-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Peças únicas</h3>
+          <p>Você não vai encontrar duas peças exatamente iguais.</p>
+        </div>
+        <div class="diferencial-card reveal">
+          <div class="diferencial-icon"><i class="fa-solid fa-scissors"></i></div>
+          <h3>Produção artesanal</h3>
+          <p>Materiais selecionados e acabamento impecável em cada detalhe.</p>
+        </div>
+        <div class="diferencial-card reveal">
+          <div class="diferencial-icon"><i class="fa-solid fa-truck"></i></div>
+          <h3>Envio para todo Brasil</h3>
+          <p>Sua encomenda chega com segurança, onde você estiver.</p>
+        </div>
+        <div class="diferencial-card reveal">
+          <div class="diferencial-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>Atendimento personalizado</h3>
+          <p>Conversamos com carinho para criar a peça perfeita pra você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERIA INSTAGRAM ===================== -->
+  <section class="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow"><i class="fa-brands fa-instagram"></i> @atelie.marina</span>
+        <h2>Nossa <em>galeria</em></h2>
+        <p>Um pedacinho do nosso dia a dia no ateliê.</p>
+      </div>
+
+      <div class="galeria-grid" id="galeriaGrid">
+        <!-- Itens da galeria gerados via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="cta-final" id="contato">
+    <div class="container cta-content reveal">
+      <i class="fa-solid fa-gift cta-icon"></i>
+      <h2>Presenteie com <em>carinho artesanal</em></h2>
+      <p>
+        Encomende uma peça exclusiva e transforme um momento em uma lembrança eterna.
+        Cada criação é feita pensando em você.
+      </p>
+      <a href="https://wa.me/5500000000000?text=Olá%20Marina!%20Quero%20encomendar%20uma%20peça%20personalizada."
+         class="btn btn-primary btn-large" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3><i class="fa-solid fa-heart"></i> Ateliê Marina</h3>
+        <p>Crochê feito à mão, com amor.</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:contato@ateliemarina.com" aria-label="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        © <span id="year"></span> Ateliê Marina — Todos os direitos reservados.<br />
+        <span class="footer-quote">“Tecendo afeto, ponto a ponto.”</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a href="https://wa.me/5500000000000" class="whats-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
