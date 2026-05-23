@@ -20,7 +20,7 @@ const produtos = [
 
 /* ---------- 2. Renderiza cards do carrossel ---------- */
 const track = document.getElementById('carouselTrack');
-const waLink = 'https://wa.me/5500000000000?text=';
+const waLink = 'https://wa.me/12996042276?text=';
 
 produtos.forEach(p => {
   const card = document.createElement('article');
