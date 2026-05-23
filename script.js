@@ -128,12 +128,12 @@ startAutoplay();
 /* ---------- 4. Galeria estilo Instagram ---------- */
 const galeria = document.getElementById('galeriaGrid');
 const galeriaItens = [
-  { imagem: 'imagem/foto1.jpeg' },
-  { imagem: 'imagem/foto2.jpeg' },
-  { imagem: 'imagem/foto3.jpeg' },
-  { imagem: 'imagem/foto4.jpeg' },
-  { imagem: 'imagem/foto5.jpeg' },
-  { imagem: 'imagem/foto6.jpeg' },
+  { imagem: 'imagem/foto1.png' },
+  { imagem: 'imagem/foto2.png' },
+  { imagem: 'imagem/foto3.png' },
+  { imagem: 'imagem/foto4.png' },
+  { imagem: 'imagem/foto5.png' },
+  { imagem: 'imagem/foto6.png' },
 ];
 galeriaItens.forEach(g => {
   const div = document.createElement('div');
